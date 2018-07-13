@@ -35,5 +35,5 @@ async def on_member_join(member):
     await client.send_message(member, "Welcome to the server!")
     print("Sent message to " + member.name)
 
-client.login(config.token);
+client.login(procces.env.BOT_TOKEN);
     
